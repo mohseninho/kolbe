@@ -4,6 +4,10 @@ import Sidebar from "./Sidebar";
 import styled from "styled-components";
 
 const StyledAppLayout = styled.div`
+    background-image: url("/background.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 26rem 1fr;
     grid-template-rows: auto 1fr;
